@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 # Function is defined to show how the error message should be shown if error occurs inside a file
 def error_message_detail(error,error_detail:sys):
